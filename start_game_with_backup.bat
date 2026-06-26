@@ -5,9 +5,9 @@ setlocal EnableDelayedExpansion
 
 :: --- НАСТРОЙКА ПАРАМЕТРОВ ---
 :: Настройте пути здесь:
-set "GAME_SAVE_DIR=C:\Users\Антон\AppData\Local\G1R"  REM Путь к папке, где игра хранит сохранения. Обычно C:\Users\[Имя_Пользователя]\AppData\Local\G1R\Saved\SaveGames\
-set "BACKUP_BASE_DIR=C:\Users\Антон\AppData\Local\G1R\Gothic Backup"                           REM Базовая папка на вашем компьютере для хранения резервных копий.
-set "GAME_EXE_PATH=D:\Games\Gothic.1.Remake-InsaneRamZes\Gothic.1.Remake-InsaneRamZes\G1R-Win64-Shipping.exe"                                 REM Полный путь к .exe файлу игры, который запускает саму игру.
+set "GAME_SAVE_DIR=C:\Users\----\AppData\Local\Путь_где_лежат_сохранения_с_игрой"  REM Путь к папке, где игра хранит сохранения. Обычно C:\Users\[Имя_Пользователя]\AppData\Local\G1R\Saved\SaveGames\
+set "BACKUP_BASE_DIR=C:\Users\----\AppData\Local\Путь_где_будут_лежать_бэкапы"                           REM Базовая папка на вашем компьютере для хранения резервных копий.
+set "GAME_EXE_PATH=D:\Games\Любой_путь_до_exe"                                 REM Полный путь к .exe файлу игры, который запускает саму игру.
 
 REM --- ПРОВЕРКА И СОЗДАНИЕ ПАПКИ БЕКАПА ---
 REM Проверяем, существует ли папка для бекапов. Если нет, создаём её.
