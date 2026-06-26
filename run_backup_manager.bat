@@ -1,7 +1,10 @@
 @echo off
 setlocal
 
-:: Путь к PowerShell-скрипту. Предполагается, что он находится в той же папке, что и .bat файл.
+:: Скрипт для запуска основного менеджера бэкапа на PowerShell.
+:: Убедитесь, что все .ps1 файлы находятся в этой же папке.
+
+:: Путь к основному PowerShell-скрипту. Не изменяйте эту строку, если файлы в одной папке.
 set "PS_SCRIPT=start_game_and_backup.ps1"
 
 echo Launching PowerShell backup manager...
